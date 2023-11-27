@@ -1,58 +1,11 @@
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  height: 100vh;
-  flex-direction: column;
-  gap:20px;
-  background-color: cadetblue;
+
+    background-color: cadetblue;
 }
 
-.divNumb1{
-  width: 150px;
-  height: 150px;
-  background-color: orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-  font-size: 30px;
-  border-radius: 20px;
-}
+h1 {
 
 
-
-.divNumb2{
-  width: 150px;
-  height: 150px;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-  font-size: 30px;
-  border-radius: 20px;
-}
-
-
-
-
-
-.App > button {
-  width: 50px;
-  font-size: 20px;
-}
-
-
-
-.result {
-
-  background-color: yellow;
-  height: 30px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
+    text-decoration: underline;
+    text-align: center;
 }
