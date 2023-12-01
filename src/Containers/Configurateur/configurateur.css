@@ -1,0 +1,56 @@
+.Configurateur {
+
+    background-color: rgb(19, 14, 59);
+    color: aliceblue;
+    height: 100vh;
+   
+
+}
+
+
+.configContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titleBar {
+
+    height: 50px;
+    width: 1000px;
+    background-color: forestgreen;
+    border: 1px solid aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+
+
+
+}
+
+
+.configTab {
+
+    background-color: gray;
+    border: 1px solid aliceblue;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.configTabSelected {
+
+    background-color: forestgreen;
+    border: 1px solid aliceblue;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+
+
+}

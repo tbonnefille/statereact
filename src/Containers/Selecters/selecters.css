@@ -5,6 +5,8 @@
   height: 100vh;
   /* flex-direction: column; */
   gap: 20px;
+  background-color: rgb(51, 42, 42);
+  color: aliceblue;
 }
 
 .cptbox {

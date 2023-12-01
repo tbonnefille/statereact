@@ -1,0 +1,109 @@
+.Todoliste {
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    background-color: lavender;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+.todobox {
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+
+    padding: 20px;
+    border: thick double black;
+    justify-content: space-between;
+
+    background-color: floralwhite;
+    align-items: center;
+
+}
+
+
+.searchInput {
+
+    background-color: greenyellow;
+    height: 3rem;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+
+.taskInput {
+
+    width: 700px;
+    background-color: thistle;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.taskContainer {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+
+
+.taskBox {
+
+    width: 800px;
+    height: 40px;
+    margin: 1rem;
+    background-color: lightpink;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.taskelement {
+
+    text-align: center;
+    width: 95%;
+    font-size: 1.5rem;
+
+}
+
+
+
+.x {
+
+    background-color: snow;
+    color: crimson;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 1px;
+}
